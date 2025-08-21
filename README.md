@@ -1,7 +1,30 @@
-# Vue 3 + Vite
+# Library Subsystem
+Saint Nicholas Academy of Castillejos, Inc. School Management System
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+The **Library Subsystem** is a modern and user-friendly library management system
+designed for **Saint Nicholas Academy of Castillejos, Inc.** It streamlines
+library operations such as managing book inventories, monitoring borrow and return
+records, and generating reports for library staff and administrators.
 
-## Recommended IDE Setup
+The scope of the Library Subsystem focuses on providing library administrators with
+a centralized dashboard to manage book collections, track student transactions,
+and oversee borrowing policies efficiently.
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+The **Library Subsystem Admin** is built with **Vue 3**, offering an intuitive
+interface for librarians and staff. It communicates with the backend via REST APIs
+to ensure smooth library management and reporting.
+
+## Tech Stack
+- **Vue 3**
+- **Vue Router** (navigation)
+- **Axios** (API communication)
+- **CSS3** (styling)
+
+## Prerequisites
+- Node.js (v16+)
+- npm or yarn
+
+## Setup & Run
+1. Install dependencies:
+   ```bash
+   npm install
