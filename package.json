@@ -1,0 +1,45 @@
+{
+  "name": "adminside",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview --host",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@vueuse/core": "^5.0.0",
+    "@vueuse/integrations": "^10.10.0",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "chart.js": "^4.4.3",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.1",
+    "ip": "^2.0.1",
+    "jspdf": "^2.5.1",
+    "primevue": "^3.51.0",
+    "roboto-fontface": "*",
+    "sass": "^1.75.0",
+    "sweetalert2": "^11.6.13",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vue-router": "^4.0.13",
+    "vuetify": "^3.6.0",
+    "vuex": "^4.0.2",
+    "webfontloader": "^1.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "gulp": "^5.0.0",
+    "gulp-watch": "^4.0.1",
+    "vite": "^5.2.10",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+  },
+  "type": "module"
+}
